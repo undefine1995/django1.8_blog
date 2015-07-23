@@ -1,0 +1,128 @@
+[2015-07-23 10:22:04,141] [ERROR] base : Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "D:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "E:\undefine\python\Django\Undefine\Undefine\urls.py", line 10, in <module>
+    url(r'',include(blog.urls))
+NameError: name 'blog' is not defined
+[2015-07-23 10:22:04,141] [ERROR] base : Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "D:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "E:\undefine\python\Django\Undefine\Undefine\urls.py", line 10, in <module>
+    url(r'',include(blog.urls))
+NameError: name 'blog' is not defined
+[2015-07-23 10:22:16,980] [ERROR] base : Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "D:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "E:\undefine\python\Django\Undefine\Undefine\urls.py", line 10
+    url(r'',include(.blog.urls))
+                    ^
+SyntaxError: invalid syntax
+[2015-07-23 10:22:16,980] [ERROR] base : Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "D:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "E:\undefine\python\Django\Undefine\Undefine\urls.py", line 10
+    url(r'',include(.blog.urls))
+                    ^
+SyntaxError: invalid syntax
+[2015-07-23 10:22:42,497] [ERROR] base : Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "D:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "E:\undefine\python\Django\Undefine\Undefine\urls.py", line 10, in <module>
+    url(r'',include(Undefine.blog.urls))
+NameError: name 'Undefine' is not defined
+[2015-07-23 10:22:42,497] [ERROR] base : Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "D:\Python27\lib\site-packages\django-1.8-py2.7.egg\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "D:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "E:\undefine\python\Django\Undefine\Undefine\urls.py", line 10, in <module>
+    url(r'',include(Undefine.blog.urls))
+NameError: name 'Undefine' is not defined
+[2015-07-23 10:23:32,022] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:28:35,243] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:28:44,176] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:31:32,532] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:31:44,568] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:31:45,644] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:31:45,822] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:31:46,088] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:33:54,329] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:33:55,940] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:33:59,203] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:34:38,637] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:39:19,775] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:39:23,960] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:40:22,562] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:43:49,454] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:44:58,371] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:45:00,763] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 10:45:05,568] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 11:03:52,283] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 11:04:36,996] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 11:04:39,401] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 11:04:41,561] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 11:04:42,305] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 11:04:44,730] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 11:05:17,493] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 11:05:59,336] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 11:06:11,648] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 11:06:34,910] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 11:07:02,144] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 11:07:17,398] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 11:07:56,450] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 11:08:10,663] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 11:08:15,286] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 11:10:24,595] [ERROR] views : [BaseMixin]加载基本信息出错
+[2015-07-23 11:10:45,101] [ERROR] views : [BaseMixin]加载基本信息出错
