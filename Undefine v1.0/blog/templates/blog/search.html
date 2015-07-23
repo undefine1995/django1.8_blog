@@ -6,13 +6,11 @@
     <div id="undefine-content" class="col-md-8 col-lg-9">
         <div id="all-post-list" class="well">
 
-            {% if article_list %}
-            {% with post_list=article_list %}
+
             {% for post in post_list %} 
                 {% include "./blog/include/search_post.html"%}
             {% endfor %}
-            {% endwith %}
-            {% endif %}
+
 
             
         </div>

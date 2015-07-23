@@ -160,8 +160,8 @@ class SearchView(BaseMixin,ListView):
         #获取搜索的关键字
         s = self.request.GET.get('s','')
         #在文章的标题,summary和tags中搜索关键字
-        article_list = Article.objects.only('title','summary','tags')\
-                .filter(Q(title__icontains=s)|Q(summary__icontains=s)|Q(tags__icontains=s)\
+        article_list = Article.objects.only('title','summary')\
+                .filter(Q(title__icontains=s)|Q(summary__icontains=s)\
                 ,status=0);
         return article_list
 
